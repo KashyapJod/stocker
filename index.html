@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stock Recommendations</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Stocks App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#dayStocksCarousel">Intraday</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#shortStocksCarousel">Short Term</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#longStocksCarousel">Long Term</a>
+                </li>
+               
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="recommendation-section text-center">
+                    <h2>Intraday Stocks</h2>
+                    <div id="dayStocksCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Add day stock cards dynamically -->
+                            <!-- Repeat the following block for each stock -->
+                            <div class="carousel-item active">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 1</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 2</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 3</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 4</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 5</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 6</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 7</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 8</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#dayStocksCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#dayStocksCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <!-- Repeat the above block for each stock -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="recommendation-section text-center">
+                    <h2>Short Term Stocks</h2>
+                    <div id="shortStocksCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Add day stock cards dynamically -->
+                            <!-- Repeat the following block for each stock -->
+                            <div class="carousel-item active">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 1</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 2</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 3</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 4</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 5</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 6</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 7</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 8</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#shortStocksCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#shortStocksCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <!-- Repeat the above block for each stock -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="recommendation-section text-center">
+                    <h2>Long Term Stocks</h2>
+                    <div id="longStocksCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Add day stock cards dynamically -->
+                            <!-- Repeat the following block for each stock -->
+                            <div class="carousel-item active">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 1</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 2</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 3</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 4</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 5</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 6</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 6</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="stock-card text-center">
+                                    <h3>Stock Name 7</h3>
+                                    <p>Current Price: $XX.XX</p>
+                                    <p>Target Price: $YY.YY</p>
+                                    <p>Stop Loss: $ZZ.ZZ</p>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#longStocksCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#longStocksCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <!-- Repeat the above block for each stock -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat the above structure for Short-Term Stocks and Long-Term Stocks -->
+        </div>
+    </div>
+<div class="container-fluid">
+    <div class="row">
+    <!-- Nifty Chart Section -->
+<div class="col-md-6">
+    <div class="chart-section text-center">
+        <h2>SENSEX Chart</h2>
+        <!-- Add the TradingView widget for Nifty -->
+        <div class="tradingview-widget-container ">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+                new TradingView.widget({
+                    "autosize": true,
+                    "symbol": "BSE:SENSEX",
+                    "interval": "1H",
+                    "timezone": "Asia/Kolkata",
+                    "theme": "dark",
+                    "style": "1",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "hide_top_toolbar": false,
+                    "hide_legend": false,
+                    "hide_side_toolbar": false,
+                    "container_id": "tradingview_nifty_chart"
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+<!-- Bank Nifty Chart Section -->
+<div class="col-md-6">
+    <div class="chart-section text-center">
+        <h2>DOW JONES Chart</h2>
+        <!-- Add the TradingView widget for Bank Nifty -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+                new TradingView.widget({
+                    "autosize": true,
+                    "symbol": "BLACKBULL:US30",
+                    "interval": "1H",
+                    "timezone": "Asia/Kolkata",
+                    "theme": "dark",
+                    "style": "1",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "hide_top_toolbar": false,
+                    "hide_legend": false,
+                    "hide_side_toolbar": false,
+                    "container_id": "tradingview_banknifty_chart"
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,323 @@
+
+/* Chart Section styles */
+.chart-section {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.chart-section h2 {
+    color: #28a745;
+}
+
+/* TradingView widget container styles */
+.tradingview-widget-container {
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Adjust styling for smaller screens */
+@media (max-width: 768px) {
+    .col-md-4 {
+        width: 100%;
+    }
+}
+/* Add your general styling here */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.recommendation-section {
+    margin-bottom: 20px;
+}
+
+.stock-card {
+    background-color: #265b91;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.stock-card:hover {
+    transform: scale(1.05);
+}
+
+.carousel-inner {
+    overflow: hidden;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-inner:hover .carousel-item {
+    transform: scale(1.05);
+}
+
+
+/* Recommendation Section styles */
+.recommendation-section {
+    background-color: #f9d9d9; /* Light red background */
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease-in-out; /* Transition for background color change */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-section:hover {
+    background-color: #ff9999; /* Dark red background on hover */
+}
+
+.stock-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out; /* Transition for card transform on hover */
+    background-color: #ffffff; /* White background */
+}
+
+.stock-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
+    background-color: #f1f1f1; /* Light gray background on hover */
+    color: #333; /* Darker text color on hover */
+}
+
+/* Chart Section styles */
+.chart-section {
+    background-color: #c9f3e9; /* Light green background */
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+.chart-section:hover {
+    background-color: #000000; /* Dark green background on hover */
+    animation: none; /* Stop flickering animation on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+/* More transitions and animations */
+.tradingview-widget-container__widget {
+    transition: opacity 0.5s ease-in-out; /* Fade in/out transition */
+}
+
+.tradingview-widget-container__widget:hover {
+    opacity: 0.7; /* Reduce opacity on hover */
+}
+
+/* Button styles */
+.button {
+    background-color: #007bff; /* Blue button */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Transition for background color change */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* Chart Section styles */
+.chart-section {
+    background-color: #2b2b2b; /* Dark background */
+    border: 1px solid #4d4d4d;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.chart-section h2 {
+    color: #28a745; /* Green text */
+}
+
+
+
+/* Optional: Adjust styling for smaller screens */
+@media (max-width: 768px) {
+    .col-md-4 {
+        width: 100%;
+    }
+}
+
+/* Add your general styling here */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(back1.jpg); /* Dark background */
+    color: #ffffff; /* White text */
+    overflow: hidden; /* Prevent horizontal scrollbar due to potential flickering */
+}
+
+/* Recommendation Section styles */
+.recommendation-section {
+    background-color: #2c2a2a; /* Dark gray background */
+    border: 1px solid #666666;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease-in-out; /* Transition for background color change */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.recommendation-section:hover {
+    background-color: #666666; /* Slightly darker gray background on hover */
+}
+
+.stock-card {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out; /* Transition for card transform on hover */
+    background-color: #000000; /* Dark gray background */
+}
+
+.stock-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    box-shadow: 0 0 15px rgba(24, 23, 23, 0.2); /* Add box shadow on hover */
+    background-color: #141313; /* Slightly darker gray background on hover */
+    color: #ffffff; /* White text color on hover */
+}
+
+/* More transitions and animations */
+.tradingview-widget-container__widget {
+    transition: opacity 0.5s ease-in-out; /* Fade in/out transition */
+}
+
+.tradingview-widget-container__widget:hover {
+    opacity: 0.7; /* Reduce opacity on hover */
+}
+
+/* Button styles */
+.button {
+    background-color: #007bff; /* Blue button */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Transition for background color change */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Light background */
+    color: #ffffff; /* Dark text */
+    overflow: hidden; /* Prevent horizontal scrollbar due to potential flickering */
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+/* Chart Section styles */
+.chart-section {
+    background-image: url('cardback.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    border: 1px solid #a3c2a6;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.chart-section h2 {
+    color: #4caf50; /* Green text */
+}
+
+.chart-section:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Recommendation Section styles */
+.recommendation-section {
+    background-image: url('cardback.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    border: 1px solid #ff9999;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease-in-out; /* Transition for background color change */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-section:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.stock-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
+}
+
+/* Button styles */
+.button {
+    background-color: #2196f3; /* Blue button */
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Transition for background color change */
+}
+
+.button:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+}
